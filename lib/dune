@@ -1,0 +1,9 @@
+(library
+  (name midterm)
+  (inline_tests)                
+  (preprocess (pps ppx_inline_test ppx_expect))
+  (wrapped false)
+  (synopsis "Data Structures for Memory Allocation and Reclamation"))
+
+(env
+ (release (inline_tests enabled)))
