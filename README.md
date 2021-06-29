@@ -1,10 +1,10 @@
 # Memory-Allocator
 
-This is the midterm team project for YSC2229 Introductory Data Sctructures and Algorithms. It is dedicated to implementing and using data structures for dynamic memory allocation and reclamation. My contributions to the project are: alloc function and some allocator tests, SLL and tests, SLL-based queue tests.I uploaded my individual report "Report.pdf" where I explain data structures we used in the project and other design choices.
-
 ## Introduction
 
 At the fundamental level, this project builds a memory allocator that allows for storing and retrieving integers, strings, and pointers in the memory without using OCaml reference. Based on this memory allocator, we define data structures such as Doubly-linked list (DLL), Singly-linked list (SLL), DLL-based queue, and SLL-based queue and implement their associated functions.
+
+This is the midterm team project for YSC2229 Introductory Data Sctructures and Algorithms. It is dedicated to implementing and using data structures for dynamic memory allocation and reclamation. My contributions to the project are: alloc function and some allocator tests, SLL and tests, SLL-based queue tests.I uploaded my individual report "Report.pdf" where I explain data structures we used in the project and other design choices.
 
 ## Memory Allocator from Scratch
 
